@@ -8,6 +8,6 @@ Para desenvolver essa página você terá que usar HTML, CSS e JS, pode usar ger
 
 ### Como você tem que entregar o seu case?
 
-Você tem **5 dias** para nós enviar o código.
+Você tem **5 dias** para nós enviar o código. (Caso precide de mais tempo nos avise antes)
 
 Você pode enviar o código como anexo no email ou mandar um link do repositório no GitHub (ou qualquer outro) para avaliarmos.
