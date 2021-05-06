@@ -31,6 +31,6 @@ Os dados dessa página terá que ser consumido do arquivo JSON que temos dentro 
 
 ### Como você tem que entregar o seu case?
 
-Você pode zipar o código e nós mandar ou mandar um link do repositório no GitHub (ou qualquer outro) para avaliarmos.
+Você tem **5 dias** para nós enviar o código. (Caso precise de mais tempo nos avise antes)
 
-
+Você pode enviar o código como anexo no email ou mandar um link do repositório no GitHub (ou qualquer outro) para avaliarmos.
