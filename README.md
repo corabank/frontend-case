@@ -27,7 +27,6 @@ Os dados dessa página terá que ser consumido do arquivo JSON que temos dentro 
     - `Saída` tudo que no campo `entry` for igual a `DEBIT`
     - `Futuro` tudo que tiver o campo `scheduled` como `true`
     - NÃO vamos exigir que seja implementado o campo de busca por texto, mas caso queira implementar vamos gostar de ver.
-- Só a listagem será puxada com informações do JSON o restante da página como, header, menu, saldo pode ser como está no layout do Figma.
 
 ### Como você tem que entregar o seu case?
 
