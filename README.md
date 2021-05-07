@@ -26,7 +26,7 @@ Os dados dessa página terá que ser consumido do arquivo JSON que temos dentro 
     - `Entrada` tudo que no campo `entry` for igual a `CREDIT`
     - `Saída` tudo que no campo `entry` for igual a `DEBIT`
     - `Futuro` tudo que tiver o campo `scheduled` como `true`
-    - NÃO vamos exigir que seja implementado o campo de busca por texto, mas caso queira implementar vamos gostar de ver.
+- O campo de busca tem que retornar os items que derem match com a string digitada no campo. Caso a string digitada não dê match com nenhum item, você pode exibir uma simples mensagem de items não encontrados.
 
 ### Como você tem que entregar o seu case?
 
