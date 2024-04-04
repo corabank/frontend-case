@@ -34,7 +34,7 @@ O objetivo deste teste é avaliar sua capacidade de desenvolver interfaces web. 
 
 1. Faça o **fork** ou **clone** de projeto
 
-2. Instale as dependencias
+2. Instale as dependências
 
 3. Inicie o projeto com o comando:
 
