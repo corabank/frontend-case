@@ -26,7 +26,7 @@ app.post("/auth", (req, res) => {
 app.get("/list", (req, res) => {
   const token = req.headers.token;
 
-  if (!token || token !== user.token) return res.sendStatus(401);
+  if (!token || token === user.token) return res.sendStatus(401);
 
   return res.json(db);
 });

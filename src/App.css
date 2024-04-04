@@ -1,8 +1,10 @@
 #page {
   --color-main: #fe3e6d;
+  --color-dark-main: #d4265a;
   --color-white: #ffffff;
   --color-gray: #6b7076;
   --color-light-gray: #dfdfdf;
+  --color-lighter-gray: #f0f4f8;
   --color-error: #ee3636;
   --color-success: #04aa6d;
 

@@ -1,10 +1,7 @@
-import logoImage from "./assets/logo.svg";
-// import Todo from "./Todo";
-
-import "./App.css";
+import { Login } from "./Login";
 
 function IBanking() {
-  return <p>login</p>;
+  return <Login />;
 }
 
 export { IBanking };
