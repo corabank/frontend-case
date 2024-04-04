@@ -1,30 +1,89 @@
-# React + TypeScript + Vite
+### <img src="https://github.com/corabank/frontend-case/blob/16051123b026faaba02e6d0959fe471a6a6dac2a/src/assets/logo.svg" alt="Cora" title="Cora" width="50" />
+### Frontend Teste
+Teste para vagas de frontend da [Cora](https://www.cora.com.br) :heartbeat:
+<br />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Hey There :wave:
 
-Currently, two official plugins are available:
+Neste teste, gostaríamos que você simulasse a criação e manutenção de um projeto real e aplicasse todas as práticas e técnicas que você considera importantes em um projeto frontend.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O objetivo deste teste é avaliar sua capacidade de desenvolver interfaces web. Você será responsável por resolver bugs, efetuar melhorias, implementar funcionalidades e desenvolver **uma** nova página de acordo com as especificações fornecidas.
 
-## Expanding the ESLint configuration
+### Principais tarefas
+1. Resolução de Problemas: Você será desafiado a identificar e corrigir possíveis erros e problemas relacionados à interface em páginas já existentes. Isso envolve a depuração de código, a correção de erros de exibição e a garantia de que todas as funcionalidades estejam funcionando corretamente.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+2. Desenvolvimento de Páginas Novas: Você será responsável por desenvolver **uma** nova página para melhorar a experiência do usuário. Isso envolve a criação de layouts atraentes e a implementação de interações intuitivas e funcionais ([link do figma](https://www.figma.com/file/TXxt0VFxbzDoho4tmt9XPP/Teste_FrontWeb?type=design&node-id=0-1&mode=design)).
 
-- Configure the top-level `parserOptions` property like this:
+3. Integração com APIs: Você será responsavel por todas as integrações com APIs, de acordo com os contratos fornecidos.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
+### Como começar?
+
+1. Faça o **fork** ou **clone** de projeto
+
+2. Instale as dependencias
+
+3. Inicie o projeto com o comando:
+
+```bash
+npm run dev
+```
+
+### Contrato com APIs
+
+#### Auth
+
+cURL:
+```bash
+curl --location 'https://api.challenge.stage.cora.com.br/challenge/auth' \
+--header 'apikey: $API_KEY' \
+--header 'Content-Type: application/json' \
+--data '{
+    "cpf": "35819357833",
+    "password": "123456"
+}'
+```
+
+**Info**: O `cpf` e `password` são fixos, ou seja, são exatamente os mesmos que estão no **cURL** :)
+
+Response:
+```json
+{
+  "token": "$TOKEN"
 }
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+#### List
+
+cURL:
+```bash
+curl --location 'https://api.challenge.stage.cora.com.br/challenge/list' \
+--header 'apikey: $API_KEY' \
+--header 'token: $TOKEN'
+```
+
+Response Interface:
+```ts
+interface IResponseList {
+  results: {
+    items: {
+      "id": string
+      "description": string
+      "label": string
+      "entry": "DEBIT" | "CREDIT"
+      "amount": number //in cents
+      "name": string
+      "dateEvent": string //ex: 2024-01-11T14:47:46Z
+      "status": string
+    }[]
+    date: string //ex: 2024-02-01
+  }[]
+  itemsTotal: number
+}
+```
+
+
+
+
+## License
+
+MIT © [corabank](https://github.com/corabank)
