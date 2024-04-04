@@ -52,6 +52,8 @@ O objetivo deste teste é avaliar sua capacidade de desenvolver interfaces web. 
 
 # Contratos com APIs.
 
+A `api` já é fornecida, e por ser em javascript você tem total poder de edição e manutenção dela no próprio projeto.
+
 ## Auth
 
 cURL:
