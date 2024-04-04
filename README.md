@@ -11,6 +11,8 @@ Teste para vagas de frontend da [Cora](https://www.cora.com.br) :heartbeat:
 - [Contratos com APIs](#contratos-com-apis)
   - [Auth](#auth)
   - [List](#list)
+- [Como entregar](#como-entregar)
+  - [Entreguei, e agora?](enteguei-e-agora)
 - [License](#license)
 
 # Hey There :wave:
@@ -98,6 +100,16 @@ interface IResponseList {
   itemsTotal: number
 }
 ```
+
+# Como entregar
+
+Terminou o nosso teste? Acredita que o projeto já esta bem estruturado? Então nos envio o link do seu repositório do github.
+
+## Entreguei, e agora?
+
+Agora o resto é com a gente. Vamos analisar o seu código e as decisões que você tomou, e partir disso, em equipe, vamos decidir quais os próximos passos.
+
+**Note**: Não se preocupe, sempre enviamos um feedback :)
 
 # License
 
