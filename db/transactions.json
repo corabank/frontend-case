@@ -1,0 +1,65 @@
+{
+  "results": [
+    {
+      "items": [
+        {
+          "id": "abc123def456ghi789",
+          "description": "Compra de produtos eletrônicos",
+          "label": "Compra aprovada",
+          "entry": "DEBIT",
+          "amount": 150000,
+          "name": "João da Silva",
+          "dateEvent": "2024-02-01T08:15:17Z",
+          "status": "COMPLETED"
+        }
+      ],
+      "date": "2024-02-01"
+    },
+    {
+      "items": [
+        {
+          "id": "uvw987rst654xyz321",
+          "description": "Assinatura mensal",
+          "label": "Débito automático",
+          "entry": "DEBIT",
+          "amount": 2990,
+          "name": "Empresa XYZ",
+          "dateEvent": "2024-01-11T14:47:46Z",
+          "status": "COMPLETED"
+        }
+      ],
+      "date": "2024-01-11"
+    },
+    {
+      "items": [
+        {
+          "id": "mno123pqr456stu789",
+          "description": "Reembolso de despesas",
+          "label": "Transferência recebida",
+          "entry": "CREDIT",
+          "amount": 4500,
+          "name": "Empresa ABC",
+          "dateEvent": "2023-12-11T16:13:24Z",
+          "status": "COMPLETED"
+        }
+      ],
+      "date": "2023-12-11"
+    },
+    {
+      "items": [
+        {
+          "id": "def456ghi123jkl789",
+          "description": "Pagamento de serviço",
+          "label": "Pagamento efetuado",
+          "entry": "DEBIT",
+          "amount": 7000,
+          "name": "Empresa XYZ",
+          "dateEvent": "2023-10-15T18:10:21Z",
+          "status": "COMPLETED"
+        }
+      ],
+      "date": "2023-10-15"
+    }
+  ],
+  "itemsTotal": 4
+}
