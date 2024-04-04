@@ -18,8 +18,8 @@ function App() {
         </p>
         <p className="disclaimer">
           &#9888; Você pode encontrar alguns <strong>erros</strong> no meio do
-          caminho, fique atento para conseguir <strong>visualizar</strong> e{" "}
-          <strong>renderizar</strong> as páginas.
+          caminho, não desanime e fique atento para conseguir{" "}
+          <strong>visualizar</strong> e <strong>renderizar</strong> as páginas.
         </p>
         <ul className="buttons">
           <li>
