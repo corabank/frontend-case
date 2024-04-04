@@ -24,18 +24,27 @@ O objetivo deste teste é avaliar sua capacidade de desenvolver interfaces web. 
 
 3. Inicie o projeto com o comando:
 
-```bash
-npm run dev
-```
+    ```bash
+    npm run dev
+    ```
 
-### Contrato com APIs
+    **Info**: Esse comando vai rodar o client e o server. O server vai sempre rodar na porta `3000`, e o client possivelmente vai rodar na porta `5173` (o proprio `vite` que faz essa escolha, então fique atento ao seu terminal)
+
+    Se quiser conferir se o server esta rodando é só rodar o seguinte **cURL**:
+
+    ```bash
+    curl --location 'http://localhost:3000/health-check'
+    ```
+
+4. Agora é só seguir o passo a passo que vai aparecer no seu localhost (possivelmente na porta `5173`). Boa sorte :v:
+
+### Contratos com APIs.
 
 #### Auth
 
 cURL:
 ```bash
-curl --location 'https://api.challenge.stage.cora.com.br/challenge/auth' \
---header 'apikey: $API_KEY' \
+curl --location 'http://localhost:3000/auth' \
 --header 'Content-Type: application/json' \
 --data '{
     "cpf": "35819357833",
@@ -56,8 +65,7 @@ Response:
 
 cURL:
 ```bash
-curl --location 'https://api.challenge.stage.cora.com.br/challenge/list' \
---header 'apikey: $API_KEY' \
+curl --location 'http://localhost:3000/list' \
 --header 'token: $TOKEN'
 ```
 
@@ -80,9 +88,6 @@ interface IResponseList {
   itemsTotal: number
 }
 ```
-
-
-
 
 ## License
 
