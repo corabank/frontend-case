@@ -21,6 +21,8 @@ Neste teste, gostaríamos que você simulasse a criação e manutenção de um p
 
 O objetivo deste teste é avaliar sua capacidade de desenvolver interfaces web. Você será responsável por resolver bugs, efetuar melhorias, implementar funcionalidades e desenvolver **uma** nova página de acordo com as especificações fornecidas.
 
+**Info**: Você é livre para alterações no projeto, sinta-se em casa.
+
 ## Principais tarefas
 1. Resolução de Problemas: Você será desafiado a identificar e corrigir possíveis erros e problemas relacionados à interface em páginas já existentes. Isso envolve a depuração de código, a correção de erros de exibição e a garantia de que todas as funcionalidades estejam funcionando corretamente.
 
