@@ -1,6 +1,7 @@
 export const TODO_LIST = [
   {
     id: "5ce31291-d06b-4940-9d14-0f41d116fe76",
+    ref: "1",
     title: "Visualizar to-do list corretamente",
     description: (
       <>
@@ -18,6 +19,7 @@ export const TODO_LIST = [
   },
   {
     id: "bcd69907-601f-461b-a8c4-4c3fc3b827e9",
+    ref: "1",
     title: "Resolver to-do bugs",
     description: (
       <>
@@ -41,16 +43,13 @@ export const TODO_LIST = [
     required: true,
   },
   {
-    id: "ea82af08-ffd1-41fe-9c60-b760ae7ee8ce",
-    title: "Página de login",
+    id: "ea82af08-ffd1-41fe-9c30-b760ae7ee8c9",
+    ref: "1",
+    title: "Página de login - CSS",
     description: (
       <>
-        1. Crie a página de login de acordo com o link do figma.
-        <br />
-        2. Faça a integração com o endpoint de autenticação.
-        <br />
-        <br />O contrato esta no final do <strong>README.md</strong> e/ou no
-        link do endpoint abaixo.
+        A página de Login já esta estruturada corretamente, mas parece que tem
+        alguma coisa errada com o CSS dessa página :/
       </>
     ),
     status: "pending",
@@ -60,23 +59,43 @@ export const TODO_LIST = [
         name: "figma",
         url: "https://www.figma.com/file/TXxt0VFxbzDoho4tmt9XPP/Teste_FrontWeb?type=design&node-id=3-2773&mode=dev",
       },
+    ],
+  },
+  {
+    id: "ea82af08-ffd1-41fe-9c60-b760ae7ee8ce",
+    ref: "1",
+    title: "Página de login - Integração",
+    description: (
+      <>
+        1. Faça a integração com o endpoint de autenticação.
+        <br />
+        <br />O contrato esta no <strong>README.md</strong> do projeto.
+        <br />
+        <br />
+        <strong>Info:</strong> Sinta-se livre para fazer melhorias :)
+      </>
+    ),
+    status: "pending",
+    required: true,
+    links: [
       {
         name: "endpoint de autenticação",
-        link: "https://api.challenge.stage.cora.com.br/challenge/auth",
+        link: "http://localhost:3000/auth",
       },
     ],
   },
   {
     id: "9c3fd0b8-2cc2-433b-b80c-e12ee4c0524e",
+    ref: "1",
     title: "Página de lista de transações",
     description: (
       <>
-        1. Crie a página de lista de transações de acordo com o link do figma.
+        1. Crie a página de lista de transações de acordo com o link do figma
+        (não esqueça que essa é uma página de área logada).
         <br />
         2. Faça a integração com o endpoint de lista.
         <br />
-        <br />O contrato esta no final do <strong>README.md</strong> e/ou no
-        link do endpoint abaixo.
+        <br />O contrato esta no <strong>README.md</strong> do projeto.
       </>
     ),
     status: "pendin",
@@ -88,12 +107,13 @@ export const TODO_LIST = [
       },
       {
         name: "endpoint de lista",
-        url: "https://api.challenge.stage.cora.com.br/challenge/list",
+        link: "http://localhost:3000/list",
       },
     ],
   },
   {
     id: "5ce31291-d06b-4940-9d14-0f41d116fe76",
+    ref: "1",
     title: "Filtro por tipo de transação",
     description: (
       <>
@@ -102,7 +122,7 @@ export const TODO_LIST = [
         <br />
         <br />
         <strong>Note:</strong> Utilize os <u>buttons</u> que aparecem no topo da
-        tela de lista de transações para criar a busca por texto.
+        tela de lista de transações para fazer o filtro.
         <br />
         <br />
         <strong>Important:</strong> O tipo da transação é a chave{" "}
@@ -121,26 +141,28 @@ export const TODO_LIST = [
   },
   {
     id: "be4f2532-aca4-46c8-84b8-c9fe41d7fb7f",
-    title: "Extras - To-do",
+    ref: "1",
+    title: "Extra",
     description: (
       <>
-        1. Teste a usabilidade do produto <strong>to-do</strong> e identifique
-        erros e falhas de comportamento.
-        <br />
-        <strong>Exemplo¹:</strong> Será que o filtro poderia ser melhorado?
-        <br />
-        <br />
-        2. Analise o código e identifique melhorias de código e performance.
-        <br />
-        <strong>Exemplo¹:</strong> Será que algum rerender pode ser evitado?
+        Agora é o seu momento de brilhar. Teste a usabilidade e avalie o código,
+        na <strong>To-do</strong> list e página de <strong>Login</strong>, para
+        encontrar bugs, falhas de comportamento e possíveis melhorias
+        (performance, código, boas práticas).
         <br />
         <br />
-        3. Resolve os erros do console.
+        <strong>Se faça a seguinte pergunta</strong>: Se esse produto fosse meu,
+        quais melhorias eu faria no código e no produto?
         <br />
         <br />
         <strong>Note:</strong> Essa task não é obrigatória. Ela pode fazer a
         diferença na avaliação geral e/ou na hora de decidirmos o melhor perfil
         para a vaga.
+        <br />
+        <br />
+        <strong>Important:</strong> Encontrou algo? Crie novas tasks para
+        conseguirmos te avaliar de uma forma mais assertiva. ObrigadaUm
+        &#128640;
       </>
     ),
     status: "pending",
