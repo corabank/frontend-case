@@ -3,20 +3,30 @@
 Teste para vagas de frontend da [Cora](https://www.cora.com.br) :heartbeat:
 <br />
 
-## Hey There :wave:
+# Quick Menu
+
+- [Hey There](#hey-there-wave)
+  - [Principais tarefas](#principais-tarefas)
+- [Como começar](#como-começar)
+- [Contratos com APIs](#contratos-com-apis)
+  - [Auth](#auth)
+  - [List](#list)
+- [License](#license)
+
+# Hey There :wave:
 
 Neste teste, gostaríamos que você simulasse a criação e manutenção de um projeto real e aplicasse todas as práticas e técnicas que você considera importantes em um projeto frontend.
 
 O objetivo deste teste é avaliar sua capacidade de desenvolver interfaces web. Você será responsável por resolver bugs, efetuar melhorias, implementar funcionalidades e desenvolver **uma** nova página de acordo com as especificações fornecidas.
 
-### Principais tarefas
+## Principais tarefas
 1. Resolução de Problemas: Você será desafiado a identificar e corrigir possíveis erros e problemas relacionados à interface em páginas já existentes. Isso envolve a depuração de código, a correção de erros de exibição e a garantia de que todas as funcionalidades estejam funcionando corretamente.
 
 2. Desenvolvimento de Páginas Novas: Você será responsável por desenvolver **uma** nova página para melhorar a experiência do usuário. Isso envolve a criação de layouts atraentes e a implementação de interações intuitivas e funcionais ([link do figma](https://www.figma.com/file/TXxt0VFxbzDoho4tmt9XPP/Teste_FrontWeb?type=design&node-id=0-1&mode=design)).
 
 3. Integração com APIs: Você será responsavel por todas as integrações com APIs, de acordo com os contratos fornecidos.
 
-### Como começar?
+# Como começar?
 
 1. Faça o **fork** ou **clone** de projeto
 
@@ -38,9 +48,9 @@ O objetivo deste teste é avaliar sua capacidade de desenvolver interfaces web. 
 
 4. Agora é só seguir o passo a passo que vai aparecer no seu localhost (possivelmente na porta `5173`). Boa sorte :v:
 
-### Contratos com APIs.
+# Contratos com APIs.
 
-#### Auth
+## Auth
 
 cURL:
 ```bash
@@ -61,7 +71,7 @@ Response:
 }
 ```
 
-#### List
+## List
 
 cURL:
 ```bash
@@ -89,6 +99,6 @@ interface IResponseList {
 }
 ```
 
-## License
+# License
 
 MIT © [corabank](https://github.com/corabank)
