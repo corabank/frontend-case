@@ -1,0 +1,131 @@
+.todo__wrapper {
+  max-width: 750px;
+  margin: 20px auto 0;
+}
+
+.todo__search {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.todo__search input {
+  width: 100%;
+  font-size: 1.6em;
+  padding: 15px;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid var(--color-light-gray);
+}
+
+.todo__search button {
+  padding: 15px;
+  font-size: 1.1em;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 0 5px 5px 0;
+  background-color: var(--color-light-gray);
+  cursor: pointer;
+}
+
+.todo__list {
+  width: 100%;
+  list-style: none;
+  border-radius: 5px;
+  border: 1px solid var(--color-light-gray);
+  background-color: rgba(0, 0, 0, 0.01);
+}
+
+.todo__list > span {
+  display: block;
+  font-size: 1.6em;
+  padding: 15px;
+  color: var(--color-gray);
+}
+
+.todo__list > li:not(:last-child) {
+  border-bottom: 1px solid var(--color-light-gray);
+}
+
+.todo__list > li {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+
+.todo__list > li > span {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 2em;
+  line-height: 1em;
+  padding-right: 10px;
+}
+
+.todo__content {
+  flex: 1;
+  text-align: left;
+}
+
+.todo__content > h3 {
+  font-size: 2em;
+  line-height: 1em;
+  margin-bottom: 10px;
+}
+
+.todo__content [data-type] {
+  transform: translateY(-3px);
+  font-size: 0.5em;
+  line-height: 1em;
+  margin-left: 5px;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 5px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.todo__content [data-type="pending"] {
+  color: var(--color-error);
+  border-color: var(--color-error);
+}
+
+.todo__content [data-type="done"] {
+  color: var(--color-success);
+  border-color: var(--color-success);
+}
+
+.todo__content > p {
+  font-size: 1.6em;
+  line-height: 1.3em;
+  color: var(--color-gray);
+}
+
+.todo__links {
+  width: 100%;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.todo__links a {
+  display: inline-block;
+  font-size: 1.4em;
+  padding-right: 7px;
+}
+
+.todo__actions {
+  display: flex;
+  margin-top: 20px;
+}
+
+.todo__actions button {
+  display: inline-block;
+  font-size: 1.1em;
+  padding: 7px;
+  border-radius: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: var(--color-main);
+  border: 1px solid var(--color-main);
+  background-color: transparent;
+}
