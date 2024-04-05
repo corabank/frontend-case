@@ -160,9 +160,9 @@ export const TODO_LIST = [
         para a vaga.
         <br />
         <br />
-        <strong>Important:</strong> Encontrou algo? Crie novas tasks para
-        conseguirmos te avaliar de uma forma mais assertiva. ObrigadaUm
-        &#128640;
+        <strong>Important:</strong> Encontrou algo? Crie novas tasks nessa lista
+        de to-dos, para conseguirmos te avaliar de uma forma mais assertiva.
+        ObrigadaUm &#128640;
       </>
     ),
     status: "pending",
