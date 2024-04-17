@@ -23,11 +23,11 @@ function Todo() {
   const handleDeleteTask = (id: number) => {
     const editedItems = [];
 
-    for (const item of items) {
+    items.map((item) => {
       if (item.id !== id) {
         editedItems.push(item);
       }
-    }
+    })
 
     setItems(editedItems);
   };
