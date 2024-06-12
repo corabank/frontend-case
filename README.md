@@ -107,7 +107,7 @@ interface IResponseList {
 
 # Como entregar
 
-Terminou o nosso teste? Acredita que o projeto já esta bem estruturado? Então nos envio o link do seu repositório do github.
+Terminou o nosso teste? Acredita que o projeto já esta bem estruturado? Então nos envie o link do seu repositório do github.
 
 ## Entreguei, e agora?
 
